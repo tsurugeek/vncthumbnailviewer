@@ -143,12 +143,15 @@ class OptionsFrame extends Frame
 
     // Set up defaults
 
-    choices[encodingIndex].select("Auto");
-    choices[compressLevelIndex].select("Default");
+//    choices[encodingIndex].select("Auto");
+    choices[encodingIndex].select("Tight");
+//    choices[compressLevelIndex].select("Default");
+    choices[compressLevelIndex].select("9");
     choices[jpegQualityIndex].select("6");
     choices[cursorUpdatesIndex].select("Enable");
     choices[useCopyRectIndex].select("Yes");
-    choices[eightBitColorsIndex].select("No");
+//    choices[eightBitColorsIndex].select("No");
+    choices[eightBitColorsIndex].select("Yes");
     choices[mouseButtonIndex].select("Normal");
     choices[viewOnlyIndex].select("No");
     choices[scaleCursorIndex].select("No");
